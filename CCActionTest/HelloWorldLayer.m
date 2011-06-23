@@ -40,14 +40,22 @@
 
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-	
+        rotate = [CCRotateTo actionWithDuration:30.0f angle:180];
 		// position the label on the center of the screen
 		label.position =  ccp( size.width /2 , size.height/2 );
 		
 		// add the label as a child to this Layer
 		[self addChild: label];
+        
+        [label runAction:rotate];
+        
+        [self schedule:@selector(findTimeLeft:)];
 	}
 	return self;
+}
+
+- (void) findTimeLeft:(ccTime) dt {
+    NSLog(@"Time left: %f",rotate.duration - rotate.elapsed);
 }
 
 // on "dealloc" you need to release all your retained objects
