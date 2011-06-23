@@ -55,7 +55,9 @@
 }
 
 - (void) findTimeLeft:(ccTime) dt {
-    NSLog(@"Time left: %f",rotate.duration - rotate.elapsed);
+    if(rotate != nil) {
+        NSLog(@"Time left: %f",rotate.duration - rotate.elapsed);
+    }
 }
 
 // on "dealloc" you need to release all your retained objects

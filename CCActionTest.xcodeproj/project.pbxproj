@@ -123,7 +123,6 @@
 		9AA2A8D013B380FB00A99D49 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2A8CF13B380FB00A99D49 /* RootViewController.m */; };
 		9AA2A8D313B380FB00A99D49 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2A8D213B380FB00A99D49 /* HelloWorldLayer.m */; };
 		9AA2A8DB13B3817400A99D49 /* grossini_dance_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2A8DA13B3817400A99D49 /* grossini_dance_08.png */; };
-		9AA2A8DE13B3823A00A99D49 /* CCRotateBy+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2A8DD13B3823A00A99D49 /* CCRotateBy+Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -363,8 +362,6 @@
 		9AA2A8D213B380FB00A99D49 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		9AA2A8D413B380FB00A99D49 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		9AA2A8DA13B3817400A99D49 /* grossini_dance_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grossini_dance_08.png; sourceTree = "<group>"; };
-		9AA2A8DC13B3823A00A99D49 /* CCRotateBy+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCRotateBy+Time.h"; sourceTree = "<group>"; };
-		9AA2A8DD13B3823A00A99D49 /* CCRotateBy+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCRotateBy+Time.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,8 +418,6 @@
 		9AA2A77913B380F800A99D49 /* CCActionTest */ = {
 			isa = PBXGroup;
 			children = (
-				9AA2A8DC13B3823A00A99D49 /* CCRotateBy+Time.h */,
-				9AA2A8DD13B3823A00A99D49 /* CCRotateBy+Time.m */,
 				9AA2A8CB13B380FB00A99D49 /* AppDelegate.h */,
 				9AA2A8CC13B380FB00A99D49 /* AppDelegate.m */,
 				9AA2A8CE13B380FB00A99D49 /* RootViewController.h */,
@@ -934,7 +929,6 @@
 				9AA2A8CD13B380FB00A99D49 /* AppDelegate.m in Sources */,
 				9AA2A8D013B380FB00A99D49 /* RootViewController.m in Sources */,
 				9AA2A8D313B380FB00A99D49 /* HelloWorldLayer.m in Sources */,
-				9AA2A8DE13B3823A00A99D49 /* CCRotateBy+Time.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
